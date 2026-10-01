@@ -71,11 +71,10 @@ I focus on correctness under failure: **transactions, idempotency, concurrency, 
 
 | Project | Highlights & Technical Proof | Tech Stack |
 | :--- | :--- | :--- |
-| **[InstaPart](#)** · *[Live Demo](#)* | Warehouse-aware inventory, vehicle compatibility, Razorpay with server-side signature verification, Spring Security | `Java 17` `Spring Boot` `PostgreSQL` `Docker` |
-| **[India Textile Connect](#)** | MongoDB ACID checkout, stock reservation/restore, idempotency tokens, rate limiting, RBAC | `Java 21` `Spring Boot` `MongoDB` |
-| **[Distributed Transaction Engine](#)** | Idempotent transfers, `SELECT FOR UPDATE`, Redis locks, Kafka audit stream | `Java 17` `PostgreSQL` `Redis` `Kafka` |
-| **[LegalEase](#)** | RAG over PDFs, risk/red-flag extraction | `Python` `Flask` `OpenAI` |
-| **[Awaaz Billing](#)** | Voice-to-structured-ledger with an LLM | `Python` `Llama 3.3` `Groq` |
+| **[InstaPart](https://github.com/PrinceKumar182/InstaPart)** · *[Live Demo](https://instapart.in)* | Warehouse-aware inventory, vehicle compatibility, Razorpay server-side verification, atomic stock updates | `Java 17` `Spring Boot` `PostgreSQL` `Docker` |
+| **[India Textile Connect](https://github.com/PrinceKumar182/IndiaTextileConnect)** | MongoDB ACID multi-document transactions, stock reservation, idempotency tokens, RBAC | `Java 21` `Spring Boot` `MongoDB` |
+| **[QrConnect](https://github.com/PrinceKumar182/QrConnect)** | Dynamic QR token platform with editable user profiles, encrypted persistence, Razorpay flow | `Java 17` `Spring Boot` `PostgreSQL` `Docker` |
+| **[Airbnb Listing Clone](https://github.com/PrinceKumar182/AirbnbClone)** · *[Live Demo](https://airbnb-clone-blond-kappa.vercel.app/)* | Responsive Next.js 15 App Router interface, dynamic booking calculator, interactive gallery | `Next.js 15` `TypeScript` `Tailwind` |
 
 ---
 
