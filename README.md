@@ -8,7 +8,7 @@
 
 > **Backend Software Engineer** · *Java · Spring Boot · PostgreSQL · Distributed Systems*
 
-Software Engineer at **HCLTech** working on enterprise healthcare backend services (a 14-service Spring Boot environment). **IIIT Delhi '25**.  
+Software Engineer at **HCLTech** working on enterprise healthcare backend services (a 14-service Spring Boot environment). 
 I focus on correctness under failure: **transactions, idempotency, concurrency, and query performance**. I also build LLM-powered features on top of backend services.
 
 ---
