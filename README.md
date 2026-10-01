@@ -1,206 +1,90 @@
 # Hi 👋, I'm Prince Kumar
 
-### Software Engineer | Backend Engineering · Java · Spring Boot · Distributed Systems
-
-[🌐 Portfolio](https://princekumar182.github.io) · [💼 LinkedIn](https://linkedin.com/in/princekumar182) · [📧 Email](mailto:princekumar182@gmail.com) · [📄 Resume](https://princekumar182.github.io/resume.pdf)
-
-I build **backend systems, APIs, and data-driven applications**, with a primary focus on **Java and Spring Boot**.
-
-My work spans production backend engineering, distributed systems, cloud deployment, machine learning, and AI-powered applications. I enjoy taking a problem from **system design → implementation → testing → deployment**.
+### Software Engineer | Backend & Distributed Systems
+[🌐 Portfolio](https://prince-kumar-182.vercel.app/) • [💼 LinkedIn](https://www.linkedin.com/in/princeiiitd/) • [📧 Email](mailto:prince21182@iiitd.ac.in)
 
 ---
 
-## 🚀 What I Work With
+## 🎯 Profile Overview
 
-**Backend:** Java · Spring Boot · Python · Node.js · REST APIs
-**Databases:** PostgreSQL · MongoDB · Redis
-**Distributed Systems:** Concurrency Control · Distributed Locking · Idempotency · Kafka · Transactions
-**Cloud & DevOps:** AWS · Docker · Linux · Git · CI/CD
-**AI / ML:** Python · Scikit-learn · LLM APIs · RAG · AI Agents
-**Frontend:** React · Next.js · TypeScript · Thymeleaf
+Software Engineer with full-time production engineering experience at **HCLTech** and a **B.Tech from IIIT Delhi** (2021–2025). Specializing in **Java / Spring Boot microservices, high-concurrency systems, distributed locking, database optimization, and AI/LLM integrations**. 
+
+Whether a hiring team evaluates this profile through the lens of **Core Java/Backend**, **Python & AI Systems**, **Node.js Services**, or **Full-Stack Application Development**, the underlying focus remains constant: **solid system design, measurable performance optimization, and production-grade reliability**.
 
 ---
 
-## 💼 Experience
+## 💼 Work Experience
 
-### Software Engineer — HCLTech
-
-**Jul 2025 – Present**
-
-Working on enterprise healthcare and clinical-instrument software using **Java, Spring Boot, PostgreSQL, Hibernate, Docker and microservices**.
-
-Some of the backend work I've contributed to:
-
-* Optimized an N+1 query flow using Hibernate batch fetching, targeted joins/fetch queries, and in-memory mapping, reducing PostgreSQL round-trips from **8,000+ to ~50**.
-* Reduced a report-generation workflow from approximately **5 minutes to 30 seconds**.
-* Implemented audit-trail improvements across **14 Java/Spring Boot microservices**, including capturing the actual Windows user on shared laboratory workstations.
-* Fixed client notification leakage by moving events from shared-account destinations to **client/session-scoped destinations**.
-* Investigated and resolved **50+ P1/P2 production issues** involving memory leaks, API timeouts, and integration failures.
-* Improved automated test coverage from approximately **45% to 81%** using JUnit and SonarQube-driven analysis.
+### **Software Engineer — HCLTech** *(Jul 2025 – Present)*
+* **Tech Stack**: Java 17, Spring Boot, PostgreSQL, Hibernate, Docker, Microservices, JUnit, SonarQube
+- **Database & API Optimization**: Redesigned query patterns and implemented Hibernate batch fetching/targeted joins, optimizing an N+1 query workflow from **8,000+ round-trips down to ~50**, reducing total report generation latency from **5 minutes to 30 seconds**.
+- **Distributed Microservices Audit**: Engineered audit-trail tracking across **14 Spring Boot microservices**, ensuring hardware/session-level accountability across multi-user laboratory workstations.
+- **Production Reliability & Bug Fixing**: Resolved **50+ P1/P2 production incidents** addressing memory leaks, database connection pool exhaustion, and integration timeouts.
+- **Code Quality**: Boosted automated test coverage from **45% to 81%** using JUnit, Mockito, and SonarQube quality gates.
 
 ---
 
-# 🧩 Featured Projects
+## 🏆 Key Achievements & Benchmarks
 
-### 🚗 InstaPart — Hyperlocal Vehicle Spare Parts Marketplace
-
-**Java · Spring Boot · PostgreSQL · Redis · Docker · AWS · Razorpay**
-
-A vehicle spare-parts marketplace designed around **local inventory, multi-vendor operations, vehicle fitment, and location-aware fulfillment**.
-
-* Built backend services for product, inventory, orders, vendors, and store operations.
-* Implemented inventory concurrency controls using **database locking** to prevent conflicting stock updates.
-* Tested inventory flows with **100+ concurrent requests** without inventory inconsistencies in the test scenario.
-* Added Redis-based caching and distributed coordination for frequently accessed operations.
-* Built SKU import validation and quarantine workflows to prevent invalid inventory data from entering the system.
-* Containerized backend services with Docker and deployed services using **AWS EC2/RDS**.
-* Integrated Razorpay for online payments.
-
-🔗 **Repository:** https://github.com/PrinceKumar182/InstaPart
+- 🥇 **AIR 1** — Smart India Hackathon 2024 *(Hardware Domain, out of 300,000+ participants)*
+- 🎯 **Top 0.1% (Rank < 100)** — Amazon ML Challenge *(Out of 72,000+ teams)*
+- 🥇 **AIR 1** — Microsoft Clash of Codes
+- 🥈 **AIR 2** — ACM HackData
 
 ---
 
-### 💳 High-Throughput Distributed Transaction Engine
+## 🛠️ Unified Technical Skills
 
-**Java 17 · Spring Boot · PostgreSQL · Redis · Kafka · Docker**
-
-A concurrent banking backend focused on preventing **double-spending and duplicate transaction execution**.
-
-* Used PostgreSQL `SELECT FOR UPDATE` to serialize balance updates at the database level.
-* Added Redis-based distributed locking for request coordination.
-* Implemented **idempotency handling** to prevent duplicate transaction execution.
-* Kept balance updates and ledger entries inside a single transactional workflow.
-* Used Kafka to asynchronously process audit and notification events.
-* Tested concurrent transfer scenarios with **100+ simultaneous requests** without duplicate transfers in the test scenario.
-
-🔗 **Repository:** https://github.com/PrinceKumar182
+| Domain | Stack & Core Technologies |
+| :--- | :--- |
+| **Backend & Systems** | Java (17/21), Spring Boot, Spring Data JPA, Hibernate, Node.js, Express.js, Python, C++, REST APIs |
+| **Concurreny & Storage** | PostgreSQL, MongoDB, Redis (Distributed Locking), Apache Kafka, Transactions, SQL |
+| **Cloud & Infrastructure** | AWS (EC2, RDS), Docker, Linux, Git, CI/CD Pipelines |
+| **AI & LLM Systems** | Agentic Workflows, OpenAI Assistants API, RAG, Llama 3.3, Groq, Scikit-Learn, Pandas |
+| **Frontend Integration** | TypeScript, React.js, Next.js, Tailwind CSS, Web Speech API |
 
 ---
 
-### 🧵 India Textile Connect
+## 🧩 Selected Core Projects
 
-**Java 21 · Spring Boot · MongoDB · Spring Security · Razorpay · Firebase**
+### 🚗 [InstaPart — Hyperlocal Vehicle Spare Parts Marketplace](https://github.com/PrinceKumar182/InstaPart)
+* **Target Focus**: *Java, Spring Boot, PostgreSQL, Redis, Distributed Locking, AWS*
+- Built multi-vendor backend microservices supporting real-time inventory management, order processing, and location-based fulfillment.
+- Implemented **pessimistic database locking** and **Redis distributed coordination** to resolve concurrent stock updates, maintaining zero inventory drift under simulated high-concurrency loads.
+- Containerized services with **Docker** and deployed on **AWS EC2/RDS** with integrated Razorpay payment webhooks.
 
-An e-commerce backend focused on **transactional checkout, inventory consistency, authentication security, and payment validation**.
+### 💳 [High-Throughput Distributed Transaction Engine](https://github.com/PrinceKumar182)
+* **Target Focus**: *Distributed Systems, Java 17, Redis Locking, Kafka, Idempotency*
+- Built a concurrent banking backend designed to enforce idempotency and prevent double-spending in financial transactions.
+- Enforced strict transaction isolation using `SELECT FOR UPDATE` in PostgreSQL alongside **Redis-based distributed locks** for multi-node request synchronization.
+- Decoupled ledger operations from audit logging using **Apache Kafka** event streaming.
 
-* Implemented MongoDB multi-document transactions for checkout workflows.
-* Added checkout idempotency to handle duplicate requests.
-* Implemented inventory reservation and restoration for failed, expired, or cancelled payments.
-* Added Razorpay payment validation against the server-calculated order amount.
-* Designed an order state flow around `PAYMENT_PENDING → PAID / CANCELLED`.
-* Implemented USER/ADMIN RBAC with Spring Security.
-* Added authentication abuse protection including brute-force controls and token-bucket rate limiting.
+### 🤖 [Awaaz Billing — Agentic Voice-Driven Retail Platform](https://github.com/PrinceKumar182)
+* **Target Focus**: *Python, Agentic AI, Llama 3.3, Groq, PostgreSQL*
+- Developed an AI-powered voice billing engine designed for retail merchants supporting code-mixed Hindi/English speech inputs via the Web Speech API.
+- Integrated **Llama 3.3 via Groq API** to convert unstructured natural language into structured transactional cart items and credit (*udhaar*) ledger entries.
 
-🔗 **Repository:** https://github.com/PrinceKumar182
+### 🧵 [India Textile Connect — E-Commerce Engine](https://github.com/PrinceKumar182)
+* **Target Focus**: *Java 21, Spring Security, MongoDB Transactions, Rate-Limiting*
+- Implemented **MongoDB multi-document ACID transactions** to handle multi-item checkout, automated stock reservation, and payment rollback.
+- Secured API endpoints with **Spring Security (JWT, RBAC)**, token-bucket rate limiting, and brute-force protection middleware.
 
----
-
-### 🤖 Awaaz Billing
-
-**Python · Llama 3.3 · Groq · Web Speech API · PostgreSQL**
-
-A voice-based billing application designed for small retail businesses, supporting **code-mixed Hindi voice interactions**.
-
-* Built voice-driven product and billing workflows.
-* Integrated Llama 3.3 through Groq for natural-language processing.
-* Used PostgreSQL for product and transaction data.
-* Designed the system around a real-world kirana-store catalogue and credit (`udhaar`) workflows.
-
----
-
-### 🏏 IPL Score Predictor
-
-**Python · Pandas · NumPy · Scikit-learn · Matplotlib · Seaborn**
-
-A machine learning project for predicting final IPL first-innings scores from ball-by-ball match state.
-
-* Worked with **76,000+ ball-by-ball records**.
-* Engineered features around current score, wickets, overs, and recent 5-over performance.
-* Compared Linear Regression, Decision Tree, and Random Forest models.
-* Used cross-validation and GridSearchCV for model tuning.
-* Random Forest achieved a reported **94.03% test R²**.
+### ⚖️ [LegalEase — AI Legal Document & RAG Analyzer](https://github.com/PrinceKumar182/LegalEase)
+* **Target Focus**: *Python, OpenAI Vector Store, RAG, Web APIs*
+- Built an automated legal document analysis platform using **OpenAI's Vector Store & GPT-4 Turbo** for Retrieval-Augmented Generation (RAG).
+- Implemented automated PDF parsing and semantic search to extract red-flag clauses, risk scores, and context-aware contractual insights.
 
 ---
 
-# 🏆 Achievements
+## 🎓 Education
 
-* 🥇 **AIR 1 — Smart India Hackathon 2024**, Hardware Domain
-* 🥇 **AIR 1 — Microsoft Clash of Codes**
-* 🥇 **Top 100 — Amazon ML Challenge**, among 72,000+ teams
-* 🥈 **AIR 2 — ACM HackData**
-* 🏅 **Top 10 — Pitchcafe**
+* **Indraprastha Institute of Information Technology, Delhi (IIIT-Delhi)**
+  * *B.Tech in Electronics & Communication Engineering* | *Minor in Entrepreneurship* (2021 – 2025)
 
 ---
 
-# 🏗️ What I Like Building
-
-```text
-Backend APIs
-     ↓
-Databases & Transactions
-     ↓
-Concurrency & Distributed Systems
-     ↓
-Caching & Event-Driven Architecture
-     ↓
-Cloud Deployment
-     ↓
-AI / ML-powered Applications
-```
-
-I'm particularly interested in problems involving:
-
-* High-concurrency backend systems
-* Distributed transactions
-* Database performance
-* Microservices
-* API design
-* Cloud-native applications
-* AI/LLM-powered products
-* Early-stage products where engineering decisions matter
-
----
-
-# 🛠️ Technical Stack
-
-### Languages
-
-**Java · Python · JavaScript · TypeScript · C++ · SQL**
-
-### Backend
-
-**Spring Boot · Spring MVC · Spring Data JPA · Hibernate · Node.js · Express.js · REST APIs**
-
-### Databases & Messaging
-
-**PostgreSQL · MongoDB · Redis · Apache Kafka**
-
-### Cloud & DevOps
-
-**AWS · Docker · Linux · Git · CI/CD**
-
-### AI / Machine Learning
-
-**Scikit-learn · NumPy · Pandas · LLM APIs · RAG · AI Agents**
-
-### Frontend
-
-**React · Next.js · TypeScript · Thymeleaf · Bootstrap**
-
----
-
-# 🎓 Education
-
-### Indraprastha Institute of Information Technology, Delhi (IIIT-Delhi)
-
-**B.Tech — Electronics & Communication Engineering**
-**Minor — Entrepreneurship**
-2021 – 2025
-
----
-
-# 📫 Let's Connect
-
-I'm interested in **Software Engineer / SDE1 / Backend Engineering** opportunities where I can work on real production systems, backend architecture, distributed systems, cloud applications, or AI-enabled products.
-
-[LinkedIn](https://linkedin.com/in/princekumar182) · [GitHub](https://github.com/PrinceKumar182) · [Portfolio](https://princekumar182.github.io) · [Email](mailto:princekumar182@gmail.com)
+<p align="center">
+  <a href="https://prince-kumar-182.vercel.app/">🌐 Portfolio</a> • 
+  <a href="https://www.linkedin.com/in/princeiiitd/">💼 LinkedIn</a> • 
+  <a href="mailto:prince21182@iiitd.ac.in">📧 Email</a>
+</p>
